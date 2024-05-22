@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 // Adding current user to www-data
-adduser $USER www-data
+#adduser $USER www-data
 
 //change ownership to user:www-data and 
-chown $USER:www-data -R /var/www/html
+chown $idusuario:$idgrupo -R /var/www/html
 chmod u=rwX,g=srX,o=rX -R /var/www/html
 
 // change file permissions of existing files and folders to 755/644
