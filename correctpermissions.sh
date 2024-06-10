@@ -3,7 +3,7 @@
 #adduser $USER www-data
 
 #//change ownership to user:www-data and 
-chown root:ejer2 -R /var/www/html
+chown root:ej2 -R /var/www/html
 chmod u=rwX,g=srX,o=rX -R /var/www/html
 
 #// change file permissions of existing files and folders to 755/644
